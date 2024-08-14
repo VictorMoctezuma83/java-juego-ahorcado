@@ -47,7 +47,7 @@ public class Ahorcado {
 
             if (String.valueOf(letrasAdivinadas).equals(palabraSecreta)) {
                 palabraAdivinada = true;
-                System.out.println("¡Felicidades, has adivinado la palabra secreta" + palabraSecreta);
+                System.out.println("¡Felicidades, has adivinado la palabra secreta: " + palabraSecreta);
             }
         }    
         
